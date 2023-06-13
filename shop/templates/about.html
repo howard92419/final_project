@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>關於我們</title>
+    <link rel="stylesheet" href="about.css" />
+
+    <style>
+      * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.header__title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #10567b;
+}
+
+.header__link,
+.header__link:visited {
+  text-decoration: none;
+  color: #10567b;
+}
+
+.header__nav {
+  font-size: 16px;
+  color: #10567b;
+  border: 1px solid #10567b;
+  padding: 8px 24px;
+  border-radius: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.line {
+  width: 100vw;
+  height: 1px;
+  background-color: #bcbcbc;
+  margin-bottom: 30px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0px 100px;
+}
+.goal {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 100px;
+}
+
+.goal__item {
+  width: 40%;
+  border: 1px solid #bcbcbc;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #bcbcbc;
+}
+
+.stats {
+  width: 100%;
+  background-color: #10567b;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats__item {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stats__item h6 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.stats__item span {
+  font-size: 36px;
+}
+
+footer {
+  padding: 30px;
+}
+
+    </style>
+
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">
+        <a class="header__link" href="/">Shappy瞎皮</a>
+      </h1>
+
+      <nav>
+        <span class="header__nav">關於我們</span>
+      </nav>
+    </header>
+    <div class="line"></div>
+    <main>
+      <div class="introduction">
+        <h2 class="introduction__title">
+          Shappy是東南亞以及台灣領先的電商平台
+        </h2>
+        <p class="introduction__content">
+          創立於2023年，是一個為本地區量身定制的平台，為用戶提供安全與快速的購物體驗，並透過強大的金流和物流系統協助客戶。
+          我們認為線上購物應是暢通無阻、順暢且愉快的。這就是Shappy每天都希望在平台上實現的願景。
+        </p>
+      </div>
+      <div class="goal">
+        <div class="goal__item">
+          <h2 class="goal__title">我們的願景</h2>
+          <p class="goal__content">
+            我們相信科技變革的力量，並希望透過提供一個連結買賣雙方的技術平台來改善人們的生活。
+          </p>
+        </div>
+        <div class="goal__item">
+          <h2 class="goal__title">我們的使命</h2>
+          <p class="goal__content">
+            Shappy為各地的網際網路使用者提供一站式的線上購物體驗、多樣化的商品選擇、值得探索的買賣家社群以及無縫的的購物服務。
+          </p>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stats__item">
+          <h6>主要客群</h6>
+          <span>22-44歲</span>
+        </div>
+        <div class="stats__item">
+          <h6>會員總人數超過</h6>
+          <span>625 萬人</span>
+        </div>
+        <div class="stats__item">
+          <h6>販售至</h6>
+          <span>全球 150 國</span>
+        </div>
+        <div class="stats__item">
+          <h6>跨境銷售占比</h6>
+          <span>30%</span>
+        </div>
+      </div>
+    </main>
+    <footer>版權所有@Shappy Limited。商標均屬於其各自所有者。</footer>
+  </body>
+</html>

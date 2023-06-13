@@ -1,0 +1,232 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <style>
+        .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 32px;
+        }
+
+        .header__title {
+          font-size: 32px;
+          font-weight: 500;
+          color: #10567b;
+        }
+
+        .header__link,
+        .header__link:visited {
+          text-decoration: none;
+          color: #10567b;
+        }
+
+        .header__nav {
+          font-size: 16px;
+          color: #10567b;
+          border: 1px solid #10567b;
+          padding: 8px 24px;
+          border-radius: 10px;
+          margin-left: 30px;
+          cursor: pointer;
+        }
+        .head_total img{
+            padding-top: 4%;
+            display:block;
+            margin: auto;
+        }
+        .head_text h2 {
+            padding-top: 4%;
+            text-align: center;
+        }
+        .head_text p {
+            padding-top: 1%;
+            text-align: center;
+        }
+        .row{
+            padding-top: 4%;
+        }
+        .head_total{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 400px; 
+        }
+        .head_total img{
+          max-width: 100%;
+          max-height: 100%;
+        }
+        .card{
+          border: none;
+        }
+        .card-body img{
+            display:block;
+            margin: auto;
+            width: 450px;
+            height: 300px;
+        }
+        .card-body h5{
+            padding-top: 2%;
+            text-align: center;
+        }
+        .card-body p{
+            padding-top: 1%;
+            text-align: center;
+        }
+        .mid_data h2{
+            padding-top: 5%;
+            text-align: center;
+        }
+        .mid_data .row{
+            padding-top: 2%;
+        }
+        .carousel {
+          max-width: 620px;
+          max-height: 450px;
+          margin: auto;
+        }
+        .carousel img{
+          max-width: 620px;
+          max-height: 450px;
+          padding-top: 5%;
+          padding-bottom: 15%;
+          margin: auto;
+        }
+        .states {
+          padding-top: 3%;
+          width: 100%;
+          height: 25%;
+          background-color: #10567b;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+        }
+        .item-text {
+          padding-top: 3%;
+          max-height: 120px;
+          text-align: center;
+        }
+
+    </style>
+    <body>
+      <header class="header">
+        <h1 class="header__title">
+          <a class="header__link" href="/">Shappy瞎皮</a>
+        </h1>
+        <nav>
+          <span class="header__nav">加入我們</span>
+        </nav>
+      </header>
+      <hr>
+      <div class="head_total">
+          <img src="/images/pc-banner.0b217e0a.jpg" alt="head">
+      </div>
+      <div class="head_text">
+          <h2>為什麼加入Shappy?</h2>
+          <p>Shappy非常重視員工，並致力於提供最好的環境。持續開拓員工發展及提升能力的機會。<br>同時，我們提供充滿活力的工作環境來促進Shappy有趣、彼此合作的工作氛圍。<br>我們確保每位員工為理想奮鬥的同時而無後顧之憂。</p>
+          <h2>學習與發展機會</h2>
+          <p>令我們自豪的是，Shappy Academy 與所有的領導者、團隊及個人共同創造合適的學習解決方案。<br>我們的目標是成為更好的自己。針對不同類型員工，皆有完善的學習計畫，包含通用技能、專業技能及領導力培訓等。</p>
+      </div>
+
+      <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/card1.jpg"> 
+                <h5 class="card-title">通用技能培訓</h5>
+                <p class="card-text">為提升個人職務技能，我們提供多種通用技能培訓，包括向上管理，溝通管理，創新思維等課程。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <img src="/images/card2.jpg">  
+                <h5 class="card-title">專業能力培訓</h5>
+                <p class="card-text">提供技術及專業領域培訓，幫助大家拓展專業知識及技能深度與廣度。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="/images/card3.jpg">
+                  <h5 class="card-title">領導力培訓</h5>
+                  <p class="card-text">領導力培訓不僅包含課程、互動活動、教練及輔導，更多深淺不同多樣的課程幫助管理者深入學習。</p>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="mid_data">
+          <h2>充滿活力的辦公環境</h2>
+          <div class="row">
+              <div class="col-sm-4">
+                <div class="card border-light">
+                  <div class="card-body">
+                    <h5 class="card-title">連結</h5>
+                    <p class="card-text">Shappy以廣大的網絡連結數百萬的買家和賣家，<br>致力於提供完善的交流平台。</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card border-light">
+                  <div class="card-body">  
+                    <h5 class="card-title">合作</h5>
+                    <p class="card-text">所有員工在一個共享與開放的空間工作，<br>這有利於跨部門之間的協作和討論。<br></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card border-light">
+                    <div class="card-body">
+                      <h5 class="card-title">歸屬感</h5>
+                      <p class="card-text">我們為員工創造了一個新鮮、有趣、充滿活動的環境，<br>使員工享受良好的舒適感與歸屬感。</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="/images/c04.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="/images/c02.jpg" class="d-block w-100" />
+          </div>
+          <div class="carousel-item">
+            <img src="/images/c03.jpg" class="d-block w-100" />
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="states">
+          <div class="item-text">
+            <h1>想要加入 Shappy？</h1>
+            <button class="btn">Join us</button>
+          </div>
+      </div>
+  </body>
+</html>
